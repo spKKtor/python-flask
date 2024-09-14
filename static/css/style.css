@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+    color:white;
+}
+/*--- header ---*/
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.welcome_user{
+    padding: 5px 20px;
+    font-size: 20px;
+}
 /* --- menu --- */
 .menu {
     background-color: black;
@@ -56,7 +70,11 @@
     height: 600px;
     background-image: url('../images/tunel.jpg');
     background-size: cover;
+}
+.logo_articles h1{
     text-align: center;
+    justify-content:center;
+    font-size: 40px;
 }
 .link{
     color: white;
