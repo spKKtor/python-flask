@@ -136,8 +136,3 @@ user = User.query.get(1)
 db.session.delete(user)  # Видаляє користувача з бази даних
 db.session.commit()  # Підтверджує видалення
 ```
-
-#### Програми для роботи з БД
-
- - https://www.heidisql.com/
- - https://sqlitebrowser.org/
